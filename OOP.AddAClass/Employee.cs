@@ -39,6 +39,14 @@
             this.LastName = lastName;
             this.Age = age;
         }
+
+
+        // Override - geçersiz kılma
+
+        public override string? ToString()
+        {
+            return $"{FirstName} {LastName} ({Age})";
+        }
     }
 
 } 
