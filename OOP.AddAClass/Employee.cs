@@ -45,8 +45,8 @@
 
         public override string? ToString()
         {
-            return $"{FirstName} {LastName} ({Age})";
-        }
+            return $"{FirstName,-20} {LastName,-15} {Age,5}"; // ifadelerin yanındaki sayılar o ifade için kaç karakterlik alan oluşturduğumuzu belirtir
+        }                                                     // sayı negatifse ifade kendine tanınan alan içinde sola, pozitifse sağa yaslanır  
     }
 
 } 
