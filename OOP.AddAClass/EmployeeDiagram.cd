@@ -14,9 +14,5 @@
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="System.Object">
-    <Position X="1.75" Y="4.25" Width="2.25" />
-    <TypeIdentifier />
-  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
